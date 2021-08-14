@@ -1,0 +1,29 @@
+{
+    "name": "phucdang-demo-node-serverless",
+    "version": "0.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "deploy": "sls deploy",
+        "remove": "sls remove",
+        "start": "sls offline  --httpPort 4000"
+    },
+    "author": "phucdang",
+    "license": "MIT",
+    "dependencies": {
+        "@babel/core": "^7.15.0",
+        "@babel/preset-env": "^7.15.0",
+        "babel-loader": "^8.2.2",
+        "copy-webpack-plugin": "^9.0.1",
+        "path": "^0.12.7",
+        "serverless-bundle": "^4.4.0",
+        "serverless-dotenv-plugin": "^3.9.0",
+        "serverless-offline": "^8.0.0",
+        "serverless-webpack": "^5.5.1",
+        "webpack": "^5.50.0",
+        "webpack-node-externals": "^3.0.0"
+    },
+    "devDependencies": {
+        "@serverless/enterprise-plugin": "latest"
+    }
+}
